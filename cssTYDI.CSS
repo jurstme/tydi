@@ -1,0 +1,113 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-title {
+    color: rgb(16, 201, 32);
+}
+
+.background {
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.custom-navbar {
+    background-color: #343a40; /* Color de fondo de la barra de navegación */
+    border-bottom: 2px solid #ffc107; /* Borde inferior del mismo color */
+    padding: 0.5em 1em; /* Espaciado adecuado */
+    height: 60px; /* Altura de la barra de navegación */
+    line-height: 60px; /* Alinea verticalmente el contenido */
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1em; /* Tamaño de fuente estándar para el menú */
+    color: #ffc107; /* Color del texto del menú */
+    padding: 0.5em 1em; /* Espaciado adecuado */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #d4d4d4; /* Color del texto al pasar el ratón */
+}
+
+/* Estilos para el formulario */
+form {
+    max-width: 600px; /* Ajusta el tamaño máximo del formulario */
+    margin: 3em auto; /* Centra el formulario y agrega margen superior e inferior */
+    padding: 2em;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra del formulario */
+    background-color: #ffffff; /* Fondo blanco del formulario */
+}
+
+h1 {
+    text-align: center;
+    color: #ff5722; /* Color llamativo para el título */
+    margin-bottom: 1.5em; /* Espacio debajo del título */
+}
+
+/* Estilos para los campos del formulario */
+.form-label {
+    color: #333; /* Color del texto de las etiquetas */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.form-control {
+    border-radius: 5px; /* Bordes redondeados de los campos */
+    border: 1px solid #ddd; /* Borde gris claro */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Sombra interna */
+}
+
+.form-control:focus {
+    border-color: #ff5722; /* Borde naranja cuando el campo está enfocado */
+    box-shadow: 0 0 0 0.2rem rgba(255, 87, 34, 0.25); /* Sombra de enfoque */
+}
+
+.btn-primary {
+    background-color: #ff5722; /* Color de fondo del botón */
+    border-color: #ff5722; /* Color del borde del botón */
+    padding: 0.5em 2em; /* Tamaño del botón */
+    border-radius: 5px; /* Bordes redondeados del botón */
+}
+
+.btn-primary:hover {
+    background-color: #e64a19; /* Color de fondo cuando el ratón pasa sobre el botón */
+    border-color: #e64a19; /* Color del borde cuando el ratón pasa sobre el botón */
+}
+
+/* Estilos para los márgenes y espaciado */
+br {
+    margin-bottom: 1em; /* Espacio debajo de los saltos de línea */
+}
+.background {
+    background: url('logo.png') no-repeat center center fixed;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7; /* Ajusta la opacidad para que no sea demasiado fuerte */
+}
+
+form {
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco con un poco de transparencia */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 2em;
+    max-width: 600px;
+    margin: 3em auto;
+}
+

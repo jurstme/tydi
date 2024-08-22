@@ -1,0 +1,139 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+.navbar-title {
+    color: rgb(16, 201, 32);
+}
+
+.background {
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.custom-navbar {
+    background-color: #343a40; /* Color de fondo de la barra de navegación */
+    border-bottom: 2px solid #ffc107; /* Borde inferior del mismo color */
+    padding: 0.5em 1em; /* Espaciado adecuado */
+    height: 60px; /* Altura de la barra de navegación */
+    line-height: 60px; /* Alinea verticalmente el contenido */
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1em; /* Tamaño de fuente estándar para el menú */
+    color: #ffc107; /* Color del texto del menú */
+    padding: 0.5em 1em; /* Espaciado adecuado */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #d4d4d4; /* Color del texto al pasar el ratón */
+}
+
+/* Estilos para el contenido */
+.content-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Estilos para los textos llamativos */
+.highlight-title {
+    color: rgb(226, 43, 180);
+    text-align: center;
+    font-size: 2.5em; /* Tamaño grande para el título */
+    font-weight: bold; /* Negrita para el título */
+    margin-top: 2em; /* Ajusta el margen superior para separar del borde superior */
+    margin-bottom: 1.5em; /* Ajusta el margen inferior para separar del contenido */
+}
+
+.content-box p {
+    font-size: 1.2em; /* Tamaño grande para los párrafos */
+    line-height: 1.6; /* Espaciado entre líneas para mejor lectura */
+    color: #333; /* Color oscuro para el texto */
+}
+
+.content-box p strong {
+    font-size: 1.3em; /* Tamaño mayor para texto en negrita */
+    color: #007bff; /* Color azul para destacar */
+}
+
+/* Estilos para las líneas de separación */
+.highlight-hr {
+    height: 5px;
+    background-color: rgb(181, 0, 0);
+}
+
+.table {
+    border: 2px solid #000; /* Hacer visibles las líneas de los cuadros */
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    border: 2px solid #000; /* Hacer visibles las líneas de los cuadros */
+}
+
+/* Estilos para listas */
+.values-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.values-list li {
+    margin-bottom: 1em;
+}
+
+.values-list p {
+    margin-left: 1em;
+}
+
+/* Estilos para el formulario */
+form {
+    max-width: 500px;
+    margin: 2em auto;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Estilos para la imagen */
+.img-fluid {
+    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Opcional: para bordes redondeados */
+}
+/* Estilos adicionales para textos llamativos */
+.content-box {
+    font-family: 'Arial', sans-serif;
+}
+
+.highlight-title {
+    font-size: 2.5em; /* Tamaño grande para el título */
+    font-weight: bold;
+    color: #28a745; /* Color verde para destacar */
+}
+
+.content-box p {
+    font-size: 1.2em; /* Tamaño grande para los párrafos */
+    line-height: 1.6; /* Espaciado entre líneas para mejor lectura */
+    color: #333; /* Color oscuro para el texto */
+}
+
+.content-box p strong {
+    font-size: 1.3em; /* Tamaño mayor para texto en negrita */
+    color: #007bff; /* Color azul para destacar */
+}
